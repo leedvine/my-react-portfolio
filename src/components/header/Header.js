@@ -1,12 +1,16 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import "./header.css";
 
-function NavTabs() {
+function Header() {
   return (
+    <header>
+      <span> Lee</span>
+    <div class="nav-container">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="/"
+          to="#"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -47,7 +51,9 @@ function NavTabs() {
       
       </li>
     </ul>
+    </div>
+    </header> 
   );
 }
 
-export default NavTabs;
+export default Header;

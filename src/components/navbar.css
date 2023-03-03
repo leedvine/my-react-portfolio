@@ -1,0 +1,12 @@
+.nav-container {
+  background: grey;
+  padding: 20px 20px;
+}
+
+nav-container a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
