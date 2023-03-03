@@ -10,7 +10,7 @@ function Header() {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <NavLink
-          to="#"
+          to="/"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
@@ -21,7 +21,7 @@ function Header() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="about"
+          to="abouts"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
