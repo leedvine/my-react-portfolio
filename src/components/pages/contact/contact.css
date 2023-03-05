@@ -1,0 +1,30 @@
+.contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto 0;
+    font-size: 18px;
+}
+
+
+.contact-form input, .contact-form textarea  {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    color: white;
+    border: solid 3px white;
+    background: none;
+}
+
+.contact-form button {
+    background: none;
+    color: white;
+    font-weight: bold;
+    border: solid 3px white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+.contact-form button:hover {
+    border: solid 3px #96b2cd;
+    color: #96b2cd;
+}

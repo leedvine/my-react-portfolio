@@ -1,30 +1,44 @@
 [
   {
     "id": 1,
-    "name": "Weather Forecast",
-    "image": "https://i.ibb.co/Mp1TFrG/Screenshot-2023-03-04-at-00-58-41.png",
-    "occupation": "https://github.com/leedvine/weather-app",
-    "location": "https://leedvine.github.io/weather-app"
+    "project": "The Travellers Friend",
+    "image": "https://i.ibb.co/LZg4BS6/travellers-friend-min.jpg",
+    "github": "https://github.com/S-R-i-c-e/TheAntonLeeSteveProject",
+    "livesite": "https://s-r-i-c-e.github.io/TheAntonLeeSteveProject/"
   },
   {
     "id": 2,
-    "name": "Mr. Krabs",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "project": "Weather Forecast",
+    "image": "https://i.ibb.co/hYj4dpt/weather-min.jpg",
+    "github": "https://github.com/leedvine/weather-app",
+    "livesite": "https://leedvine.github.io/weather-app"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "project": "Password Generator",
+    "image": "https://i.ibb.co/pZSDnps/generator-min.jpg",
+    "github": "https://github.com/leedvine/password-generator",
+    "livesite": "https://leedvine.github.io/password-generator/"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://i.ibb.co/Mp1TFrG/Screenshot-2023-03-04-at-00-58-41.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "project": "Day Planner",
+    "image": "https://i.ibb.co/nL9GNSz/day-plan.jpg",
+    "github": "https://github.com/leedvine/day-planner",
+    "livesite": "https://leedvine.github.io/day-planner/"
+  },
+  {
+    "id": 5,
+    "project": "Javascript Quiz",
+    "image": "https://i.ibb.co/dLfGWYY/quiz-min.jpg",
+    "github": "https://github.com/leedvine/javascript-quiz",
+    "livesite": "https://leedvine.github.io/javascript-quiz"
+  },
+  {
+    "id": 6,
+    "project": "Bootstrap Portfolio",
+    "image": "https://i.ibb.co/Gn47tT1/bootstrap-min.jpg",
+    "github": "https://github.com/leedvine/Bootstrap-Portfolio",
+    "livesite": "https://leedvine.github.io/Bootstrap-Portfolio/"
   }
 ]

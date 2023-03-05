@@ -8,6 +8,7 @@
   max-width: 400px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
+  font-weight: normal;
 }
 
 .card a {
@@ -18,7 +19,7 @@
 
 .card.custom-card {
   background: none;
-  border: 1px solid white;
+  border: 3px solid #96b2cd;
   box-shadow: none;
 }
 
@@ -29,7 +30,15 @@
   background:#6CADDC;
 }
 .card > .img-container > img {
-  width: 100%
+  width: 100%;
+  filter: grayscale(100%);
+  transition: transform 0.25s;
+}
+
+.card > .img-container > img:hover {
+  width: 100%;
+  filter: grayscale(0%);
+  scale: 1.02;
 }
 
 .card > .content {

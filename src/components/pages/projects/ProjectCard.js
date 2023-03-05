@@ -6,18 +6,18 @@ function ProjectCard(props) {
   return (
     <div className="card custom-card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.project} src={props.image} />
       </div>
       <div className="content">
-        <ul>
+        <ul>  
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Project:</strong> {props.project}
           </li>
           <li>
-            <strong>Github:</strong> <Link to={props.occupation} target="_blank" >View</Link>
+            <strong>Github files:</strong> <Link to={props.github} target="_blank" >View</Link>
           </li>
           <li>
-            <strong>Address:</strong> {props.location}
+            <strong>Check me out live:</strong> <Link to={props.livesite} target="_blank" >View</Link>
           </li>
         </ul>
       </div>

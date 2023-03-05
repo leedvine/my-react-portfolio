@@ -1,16 +1,38 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import "./contact.css";
+import Title from '../../Title';
 
-function Contact() {
+const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_l1e7itk', 'template_wnaf46r', form.current, 'vejk_Woa616NFtI9i')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+  
+
   return (
-    <div>
-      <h1 className="text-center">hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
-      </p>
-    </div>
+    <section class="content">
+        <Title>Give me a shout!</Title>
+      <div class="contact-form">
+        <form ref={form} onSubmit={sendEmail}>
+          <p><input type="text" placeholder="Full Name" name="user_name" required></input></p>
+          <p><input type="email" placeholder="Email Address" name="user_email" required></input></p>
+          <p><input type="text" placeholder="Subject" name="subject" required></input></p>
+          <p><textarea name="message" placeholder="Message" cols="30" rows="10"></textarea></p>
+          <p><button type="submit">Send Message</button></p> 
+        </form>
+      </div>
+    </section>
   );
-}
+};
 
 export default Contact;
