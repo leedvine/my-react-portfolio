@@ -1,0 +1,16 @@
+.wrapper {
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.card {
+  background: none;
+  border: 1px white solid;
+  box-shadow: none;
+}

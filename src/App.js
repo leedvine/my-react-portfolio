@@ -2,9 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header';
 import Home from './components/pages/home/Home';
-import About from './components/pages/projects/Projects';
-import Gallery from './components/pages/gallery/Gallery';
-import Search from './components/pages/contact/Contact';
+import ProjectList from './components/pages/projects/Projects';
+import Contact from './components/pages/contact/Contact';
 
 function App() {
   return (
@@ -16,10 +15,8 @@ function App() {
           {/* Define routes using the Route component to render different page components at different paths */}
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/gallery" element={<Gallery />} />
-          {/* Define a route that will have descendant routes */}
-          <Route path="/search" element={<Search />} />
+          <Route path="/projects" element={<ProjectList />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>
