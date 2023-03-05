@@ -3,6 +3,8 @@ import React from "react";
 function Home() {
   return (
     <div class="content">
+            <h1 class="page-title">Lee Vine Outlined</h1>
+        <p class="small-header-font">AKA Portfolio</p>
       <blockquote>"I see a little silhouetto of a man. Scaramouch, Scaramouch, will you do the Fandango?"</blockquote>
 
 <h2 class="text-center">What you don't see is that this man is:</h2>

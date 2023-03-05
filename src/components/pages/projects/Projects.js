@@ -2,13 +2,12 @@ import React from 'react';
 import projects from './projects.json';
 import ProjectCard from './ProjectCard.js';
 import Wrapper from '../../Wrapper';
-import Title from '../../Title';
 
 function ProjectList() {
   return (
     <div class="content">
+      <h1 class="page-title">My Projects</h1>
     <Wrapper>
-      <Title>My Projects</Title>
       <ProjectCard
         project={projects[0].project}
         image={projects[0].image}

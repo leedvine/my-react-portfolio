@@ -46,8 +46,7 @@ function Header() {
 
     <div id="logo-container"></div>
 
-      <h1>Lee Vine Outlined</h1>
-        <p class="small-header-font">AKA Portfolio</p>
+
     
     </header> 
   );

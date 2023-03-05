@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import "./contact.css";
-import Title from '../../Title';
 
 const Contact = () => {
   const form = useRef()
@@ -21,7 +20,7 @@ const Contact = () => {
 
   return (
     <section class="content">
-        <Title>Give me a shout!</Title>
+        <h1 class="page-title">Give me a shout!</h1>
       <div class="contact-form">
         <form ref={form} onSubmit={sendEmail}>
           <p><input type="text" placeholder="Full Name" name="user_name" required></input></p>
