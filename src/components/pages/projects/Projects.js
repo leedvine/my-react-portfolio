@@ -6,8 +6,9 @@ import Title from '../../Title';
 
 function ProjectList() {
   return (
+    <div class="content">
     <Wrapper>
-      <Title>projects List</Title>
+      <Title>My Projects</Title>
       <ProjectCard
         name={projects[0].name}
         image={projects[0].image}
@@ -27,6 +28,7 @@ function ProjectList() {
         location={projects[2].location}
       />
     </Wrapper>
+    </div>
   );
 }
 

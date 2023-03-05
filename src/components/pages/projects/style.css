@@ -1,47 +1,64 @@
 .card {
   background: #fff;
   border-radius: 2px;
-  height: 325px;
+  height: 150px;
   margin: 1rem;
   position: relative;
-  width: 325px;
+  width: 100%;
+  max-width: 400px;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
   text-align: left;
 }
 
+.card a {
+  color: #96b2cd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card.custom-card {
+  background: none;
+  border: 1px solid white;
+  box-shadow: none;
+}
+
 .card > .img-container {
-  height: 60%;
+  height: 100%;
   overflow: hidden;
   text-align: center;
   background:#6CADDC;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 100%
 }
 
 .card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .card > .content > ul {
   list-style-type: none;
+  padding: 5px;
+  font-size: 22px;
 }
 
 .card > .content > ul > li {
-  margin-top: 18px;
+  margin-top: 20px;
 }
-
-.card > .remove {
+/* Not used */
+/* .card > .remove {
   color: #ff1744;
   font-size: 48px;
   position: absolute;
   top: -20px;
   right: 5px;
   cursor: pointer;
-}
+} */
 
-.card > .remove:hover {
+/* .card > .remove:hover {
   color: #d50000;
-}
+} */
