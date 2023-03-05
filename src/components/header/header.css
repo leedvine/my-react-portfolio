@@ -1,12 +1,76 @@
 .nav-container {
-    background: grey;
-    padding: 20px 20px;
+    /* background: grey; */
+    padding: 0px 20px 40px;
+    align-items: center;
+    margin-top: -25px;
   }
-  
-  nav-container a {
+
+
+  .nav-container .nav-link {
     color: white;
-    font-size: 1.3rem;
     text-decoration: none;
-    margin: 5px;
     line-height: 3;
+    font-size: 20px !important;
+    background: transparent;
   }
+
+  .nav-container .nav-link {
+    border: none !important;
+    padding: 0 5px;
+  }
+
+  .nav-container .nav-link:hover {
+    border: none;
+    color: #96b2cd;
+  }
+
+  .nav-container a {
+    color: white;
+    margin: 10px;
+}
+
+.nav-container .nav-link.active {
+  background: transparent !important;
+  border: none;
+  color: #96b2cd !important;
+}
+
+  ul.nav.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link {
+border: none;
+background: none;
+font-size: 16px;
+
+}
+
+  h1 {
+    text-align: center;
+  }
+
+  #logo-container {
+    width: 70px;
+    height: 160px;
+    margin: 0 auto 30px;
+    background: url("https://i.ibb.co/qF2w00L/head-outline.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #logo-container:hover {
+    width: 70px;
+    height: 160px;
+    margin: 0 auto 30px;
+    background: url('https://i.ibb.co/M6H17cj/head-colour-min.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .small-header-font {
+    font-size: 18px;
+    vertical-align: middle;
+  }
+
+  

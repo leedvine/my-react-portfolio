@@ -4,10 +4,10 @@ import "./header.css";
 
 function Header() {
   return (
-    <header>
-      <span> Lee</span>
-    <div class="nav-container">
-    <ul className="nav nav-tabs">
+    <header class="content">
+
+<div class="nav-container ">
+    <ul className="nav nav-tabs justify-content-center">
       <li className="nav-item">
         <NavLink
           to="/"
@@ -21,37 +21,43 @@ function Header() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="abouts"
+          to="projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          About
+          Projects
         </NavLink>
         </li>
       <li className="nav-item">
         <NavLink
-          to="discover"
+          to="gallery"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Discover
+          Gallery
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink
-          to="search"
+          to="contact"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Search
+          Contact
         </NavLink>
       
       </li>
     </ul>
     </div>
+
+    <div id="logo-container"></div>
+
+      <h1>Lee Vine Outlined</h1>
+        <p class="small-header-font">AKA Portfolio</p>
+    
     </header> 
   );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Discover from './components/pages/Discover';
-import Search from './components/pages/Search';
+import Home from './components/pages/home/Home';
+import About from './components/pages/projects/Projects';
+import Gallery from './components/pages/gallery/Gallery';
+import Search from './components/pages/contact/Contact';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/discover" element={<Discover />} />
+          <Route path="/gallery" element={<Gallery />} />
           {/* Define a route that will have descendant routes */}
           <Route path="/search" element={<Search />} />
         </Routes>
