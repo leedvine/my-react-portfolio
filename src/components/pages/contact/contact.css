@@ -27,3 +27,33 @@
     border: solid 3px #96b2cd;
     color: #96b2cd;
 }
+
+.contact-form input::-webkit-input-placeholder
+{
+      color: rgba(255,255,255,1.0);  
+}
+
+.contact-form input::-moz-placeholder
+{
+      color: rgba(255,255,255,1.0);  
+}
+
+.contact-form input:-ms-input-placeholder
+{
+      color: rgba(255,255,255,1.0);  
+}
+
+.contact-form textarea::-webkit-input-placeholder
+{
+      color: rgba(255,255,255,1.0);  
+}
+
+.contact-form textarea::-moz-placeholder
+{
+      color: rgba(255,255,255,1.0);  
+}
+
+.contact-form textarea:-ms-input-placeholder
+{
+      color: rgba(255,255,255,1.0);  
+}
