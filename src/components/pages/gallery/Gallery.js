@@ -9,56 +9,56 @@ function Gallery() {
       <h1>Gallery</h1>
   <div class="gallery-image">
     <div class="img-box">
-      <img src="https://i.ibb.co/Mp1TFrG/Screenshot-2023-03-04-at-00-58-41.png" alt="weather app" />
+      <img src="https://i.ibb.co/LZg4BS6/travellers-friend-min.jpg" alt="Interactive Travel Assistant" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Weather App</p>
-          <p class="opacity-low">5 day weather report</p>
+          <p>The Travellers Friend</p>
+          <p class="opacity-low">Interactive Travel Assistant</p>
         </div>
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://picsum.photos/350/250/?image=232" alt="" />
+      <img src="https://i.ibb.co/hYj4dpt/weather-min.jpg" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Night Sky</p>
-          <p class="opacity-low">Cinematic</p>
+          <p>Weather Forecast</p>
+          <p class="opacity-low">World Wide 5 Day Forecast</p>
         </div>
       </div>
     </div>
     <div class="img-box">
-      <img src="https://picsum.photos/350/250/?image=431" alt="" />
+      <img src="https://i.ibb.co/pZSDnps/generator-min.jpg" alt="Password Generator App" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Tea Talk</p>
-          <p class="opacity-low">Composite</p>
+          <p>Password Generator</p>
+          <p class="opacity-low">Create a secure / unique password</p>
         </div>
       </div>
     </div>
     <div class="img-box">
-      <img src="https://picsum.photos/350/250?image=474" alt="" />
+      <img src="https://i.ibb.co/nL9GNSz/day-plan.jpg" alt="Day Planner App" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Road</p>
-          <p class="opacity-low">Landscape</p>
+          <p>Day Planner</p>
+          <p class="opacity-low">Interactive Day Planner App</p>
         </div>
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://picsum.photos/350/250?image=344" alt="" />
+      <img src="https://i.ibb.co/dLfGWYY/quiz-min.jpg" alt="Javascript Quiz App" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Sea</p>
-          <p class="opacity-low">Cityscape</p>
+          <p>Javascript Quiz</p>
+          <p class="opacity-low">Quiz App to Test your Javascript knowledge</p>
         </div>
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://picsum.photos/350/250?image=494" alt="" />
+      <img src="https://i.ibb.co/Gn47tT1/bootstrap-min.jpg" alt="" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Vintage</p>
-          <p class="opacity-low">Cinematic</p>
+          <p>Bootstrap Portfolio</p>
+          <p class="opacity-low">Portfolio Page Demonstarting Bootstrap Framework</p>
         </div>
       </div> 
     </div>

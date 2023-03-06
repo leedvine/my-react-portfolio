@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Home from './components/pages/home/Home';
 import ProjectList from './components/pages/projects/Projects';
 import Contact from './components/pages/contact/Contact';
+import Gallery from './components/pages/gallery/Gallery';
 import Footer from './components/footer/Footer';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectList />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
