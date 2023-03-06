@@ -1,8 +1,19 @@
+#contact-details {
+      text-align: center;
+      margin-top: 30px;
+}
+
+#contact-details a {
+      color: #96b2cd;
+      text-decoration: none;
+}
+
+
 .contact-form {
     width: 100%;
     max-width: 500px;
     margin: 30px auto 0;
-    font-size: 18px;
+    font-size: 18px;     
 }
 
 
