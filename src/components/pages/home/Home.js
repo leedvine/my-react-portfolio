@@ -16,7 +16,7 @@ Filled with humour<br></br>
 Always writing in CODE!
 </div>
 
-<blockquote>"Thunderbolts and lightning (cables)"</blockquote>
+<blockquote class="base">"Thunderbolts and lightning (cables)"</blockquote>
     </div>
   );
 }

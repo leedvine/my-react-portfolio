@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Home from './components/pages/home/Home';
 import ProjectList from './components/pages/projects/Projects';
 import Contact from './components/pages/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projects" element={<ProjectList />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
