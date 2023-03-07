@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="content">
+    <section class="content">
             <h1 class="page-title">Lee Vine Outlined</h1>
         <p class="small-header-font">AKA Portfolio</p>
       <blockquote>"I see a little silhouetto of a man. Scaramouch, Scaramouch, will you do the Fandango?"</blockquote>
@@ -17,7 +17,7 @@ Always writing in CODE!
 </div>
 
 <blockquote class="base">"Thunderbolts and lightning (cables)"</blockquote>
-    </div>
+    </section>
   );
 }
 

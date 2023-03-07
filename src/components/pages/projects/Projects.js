@@ -5,7 +5,7 @@ import Wrapper from '../../Wrapper';
 
 function ProjectList() {
   return (
-    <div class="content">
+    <section class="content">
       <h1 class="page-title">My Projects</h1>
     <Wrapper>
       <ProjectCard
@@ -45,7 +45,7 @@ function ProjectList() {
         livesite={projects[5].livesite}
       />
     </Wrapper>
-    </div>
+    </section>
   );
 }
 
