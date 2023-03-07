@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.9e53e4b6.css",
-    "main.js": "/my-react-portfolio/static/js/main.a21dc0b2.js",
+    "main.css": "/my-react-portfolio/static/css/main.21165a43.css",
+    "main.js": "/my-react-portfolio/static/js/main.89cdf30d.js",
+    "static/media/head-colour-min.jpg": "/my-react-portfolio/static/media/head-colour-min.180c1150faa073f3fda4.jpg",
+    "static/media/head-outline.png": "/my-react-portfolio/static/media/head-outline.25905cd285d8ff518dfb.png",
+    "static/media/bootstrap-app.jpg": "/my-react-portfolio/static/media/bootstrap-app.3b5e732e8a94777fe8ea.jpg",
+    "static/media/travellers-friend-app.jpg": "/my-react-portfolio/static/media/travellers-friend-app.72ea7d95a22ce5a78096.jpg",
+    "static/media/day-planner-app.jpg": "/my-react-portfolio/static/media/day-planner-app.048b2882b5432392fd2b.jpg",
+    "static/media/weather-app.jpg": "/my-react-portfolio/static/media/weather-app.1236cd51b2b55582f95e.jpg",
+    "static/media/generator-app.jpg": "/my-react-portfolio/static/media/generator-app.621aab584214851c1cb5.jpg",
+    "static/media/quiz-app.jpg": "/my-react-portfolio/static/media/quiz-app.e898e153519797bd88f4.jpg",
     "index.html": "/my-react-portfolio/index.html",
-    "main.9e53e4b6.css.map": "/my-react-portfolio/static/css/main.9e53e4b6.css.map",
-    "main.a21dc0b2.js.map": "/my-react-portfolio/static/js/main.a21dc0b2.js.map"
+    "main.21165a43.css.map": "/my-react-portfolio/static/css/main.21165a43.css.map",
+    "main.89cdf30d.js.map": "/my-react-portfolio/static/js/main.89cdf30d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e53e4b6.css",
-    "static/js/main.a21dc0b2.js"
+    "static/css/main.21165a43.css",
+    "static/js/main.89cdf30d.js"
   ]
 }
