@@ -1,6 +1,5 @@
 .nav-container {
-    /* background: grey; */
-    padding: 0px 20px 40px;
+    padding: 0px 20px 45px;
     align-items: center;
     margin-top: -25px;
   }
@@ -9,9 +8,9 @@
   .nav-container .nav-link {
     color: white;
     text-decoration: none;
-    line-height: 3;
     font-size: 20px !important;
     background: transparent;
+    line-height: 1.2;
   }
 
   .nav-container .nav-link {
