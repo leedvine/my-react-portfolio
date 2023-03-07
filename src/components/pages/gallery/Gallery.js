@@ -1,5 +1,11 @@
 import React from "react";
 import "./gallery.css";
+import travellersFriend from "../../../assets/images/travellers-friend-app.jpg";
+import weatherForecast from "../../../assets/images/weather-app.jpg";
+import passwordGenerator from "../../../assets/images/generator-app.jpg";
+import dayPlanner from "../../../assets/images/day-planner-app.jpg";
+import javascriptQuiz from "../../../assets/images/quiz-app.jpg";
+import bootstrapPortfolio from "../../../assets/images/bootstrap-app.jpg";
 
 
 function Gallery() {
@@ -9,7 +15,7 @@ function Gallery() {
       <h1>Gallery</h1>
   <div class="gallery-image">
     <div class="img-box">
-      <img src="https://i.ibb.co/LZg4BS6/travellers-friend-min.jpg" alt="Interactive Travel Assistant" />
+      <img src={travellersFriend} alt="Interactive Travel Assistant" />
       <div class="transparent-box">
         <div class="caption">
           <p>The Travellers Friend</p>
@@ -18,7 +24,7 @@ function Gallery() {
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://i.ibb.co/hYj4dpt/weather-min.jpg" alt="" />
+      <img src={weatherForecast} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p>Weather Forecast</p>
@@ -27,7 +33,7 @@ function Gallery() {
       </div>
     </div>
     <div class="img-box">
-      <img src="https://i.ibb.co/pZSDnps/generator-min.jpg" alt="Password Generator App" />
+      <img src={passwordGenerator} alt="Password Generator App" />
       <div class="transparent-box">
         <div class="caption">
           <p>Password Generator</p>
@@ -36,7 +42,7 @@ function Gallery() {
       </div>
     </div>
     <div class="img-box">
-      <img src="https://i.ibb.co/nL9GNSz/day-plan.jpg" alt="Day Planner App" />
+      <img src={dayPlanner} alt="Day Planner App" />
       <div class="transparent-box">
         <div class="caption">
           <p>Day Planner</p>
@@ -45,7 +51,7 @@ function Gallery() {
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://i.ibb.co/dLfGWYY/quiz-min.jpg" alt="Javascript Quiz App" />
+      <img src={javascriptQuiz} alt="Javascript Quiz App" />
       <div class="transparent-box">
         <div class="caption">
           <p>Javascript Quiz</p>
@@ -54,7 +60,7 @@ function Gallery() {
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://i.ibb.co/Gn47tT1/bootstrap-min.jpg" alt="" />
+      <img src={bootstrapPortfolio} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p>Bootstrap Portfolio</p>
