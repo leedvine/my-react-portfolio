@@ -13,7 +13,7 @@ function Gallery() {
       <div class="transparent-box">
         <div class="caption">
           <p>The Travellers Friend</p>
-          <p class="opacity-low">Interactive Travel Assistant</p>
+          <p class="opacity-100">Interactive Travel Assistant</p>
         </div>
       </div> 
     </div>
@@ -22,7 +22,7 @@ function Gallery() {
       <div class="transparent-box">
         <div class="caption">
           <p>Weather Forecast</p>
-          <p class="opacity-low">World Wide 5 Day Forecast</p>
+          <p class="opacity-100">World Wide 5 Day Forecast</p>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ function Gallery() {
       <div class="transparent-box">
         <div class="caption">
           <p>Password Generator</p>
-          <p class="opacity-low">Create a secure / unique password</p>
+          <p class="opacity-100">Create a secure / unique password</p>
         </div>
       </div>
     </div>
@@ -40,7 +40,7 @@ function Gallery() {
       <div class="transparent-box">
         <div class="caption">
           <p>Day Planner</p>
-          <p class="opacity-low">Interactive Day Planner App</p>
+          <p class="opacity-100">Interactive Day Planner App</p>
         </div>
       </div> 
     </div>
@@ -49,7 +49,7 @@ function Gallery() {
       <div class="transparent-box">
         <div class="caption">
           <p>Javascript Quiz</p>
-          <p class="opacity-low">Quiz App to Test your Javascript knowledge</p>
+          <p class="opacity-100">Quiz App to Test your Javascript knowledge</p>
         </div>
       </div> 
     </div>
@@ -58,7 +58,7 @@ function Gallery() {
       <div class="transparent-box">
         <div class="caption">
           <p>Bootstrap Portfolio</p>
-          <p class="opacity-low">Portfolio Page Demonstarting Bootstrap Framework</p>
+          <p class="opacity-100">Portfolio Page Demonstarting Bootstrap Framework</p>
         </div>
       </div> 
     </div>
