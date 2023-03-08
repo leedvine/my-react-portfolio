@@ -16,19 +16,19 @@ Gallery displaying images of projects.
 Contact with submittable form, links to social, CV and github.
 
 ### Home view
-![](./assets/images/screenshot-home.png)
+![](./screenshots/screenshot-home.png)
 <br><br>
 
 ### Project view
-![](./assets/images/screenshot-projects.png)
+![](./screenshots/screenshot-projects.png)
 <br><br>
 
 ### Gallery view
-![](./assets/images/screenshot-gallery.png)
+![](./screenshots/screenshot-gallery.png)
 <br><br>
 
 ### Contact view
-![](./assets/images/screenshot-contact.png)
+![](./screenshots/screenshot-contact.png)
 <br><br>
 
 ## Links
