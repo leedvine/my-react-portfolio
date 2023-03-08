@@ -1,107 +1,69 @@
-Challenge 13: React Portfolio
-For this challenge, you will utilize what you have learned in Module 13: React to develop the initial scaffolding of your portfolio sites.
+# README.md Portfolio usining React
 
-Now that you've worked with React and have multiple projects to share, it's time to develop the initial scaffolding for your first portfolio site as well as create and/or update other materials so that you can showcase your skills to potential employers. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Instructions
-Students must fullfil the requirements listed in the following sections:
-Design
-Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
+## Overview
+Personal coding portfolio constructed using React. Utilizing Bootstrap and custom CSS.
 
-Mobile-first design
+A one page application with dynamically created content.
 
-Choose a color palette for your site so it doesn't just look like the default bootstrap theme or an unstyled HTML site.
+Some elements utilize data object contained within json file.
 
-Make sure the font size is large enough to read and that the colors don't cause eye strain.
+Showcasing projects with information and links to both github repos and live site.
 
-Base Requirements
-Technologies that must be used:
-[ ] React
-[ ] Navigation with React Router, dynamic rendering, or another third part router
-Your portfolio must contain the following information:
-[ ] Your name
-[ ] Links to your:
-[ ] GitHub Profile
-[ ] LinkedIn Page
-[ ] Email Address
-[ ] Phone Number - (optional)
-[ ] PDF version of your resume
-Your resume must contain up-to-date projects and professional experience
-[ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
-[ ] Project title
-[ ] Link to the deployed version
-[ ] Link to the GitHub repository
-[ ] GIF or screenshot of the deployed application
-Required Components
-At a minium, your portfolio must render these 6 components:
-[ ] App
-[ ] Header
-[ ] Home
-[ ] Project Gallery
-[ ] Project
-[ ] Contact
-Required Component Content
-[ ] App:
-[ ] Must be your top level component and render all necessary children components
-[ ] Header:
-[ ] Must be rendered across the entire site
-[ ] Must Contain a Navbar
-[ ] Project Gallery:
-[ ] Must render dynamically 6 instances of the Project component
-[ ] Be sure to store your project data in a JSON file and import it into your project
-[ ] Project:
-[ ] Must be a reusable component that ingests JSON data as a props and renders a single instance for each project.
-[ ] Must utilize router props to properly render the right project based on user selection
-[ ] Must render the following info:
-[ ] Project title
-[ ] Link to the deployed version
-[ ] Link to the GitHub repository
-[ ] GIF or screenshot of the deployed application
-[ ] Contact:
-[ ] Must have contact information
-[ ] Have a contact form for handling events
-[ ] Home:
-This should be a welcome landing page that contains:
-[ ] Your Name
-[ ] A Headshot of you
-[ ] Your brand statement
-[ ] Some indication that this is your portfolio site
-Updated Social Media Presence
-LinkedIn
-Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
-If you do not have a LinkedIn profile, please create one.
-GitHub
-Update GitHub profile with pinned repositories featuring those same projects.
-Grading
-This challenge is assessed on the following criteria:
+Gallery displaying images of projects.
 
-Technical Acceptance Criteria: 40%
-Satisfies all of the above acceptance criteria
-Deployment: 32%
-Application deployed at live URL (if applicable).
+Contact with submittable form, links to social, CV and github.
 
-Application loads with no errors.
+### Home view
+![](./assets/images/screenshot-home.png)
+<br><br>
 
-Application GitHub URL submitted (if applicable).
+### Project view
+![](./assets/images/screenshot-projects.png)
+<br><br>
 
-GitHub repository that contains application code.
+### Gallery view
+![](./assets/images/screenshot-gallery.png)
+<br><br>
 
-Application Quality: 15%
-User experience is intuitive and easy to navigate.
+### Contact view
+![](./assets/images/screenshot-contact.png)
+<br><br>
 
-User interface style is clean and polished.
+## Links
+- Repo URL: https://github.com/leedvine/my-react-portfolio
+- Live site: https://leedvine.github.io/my-react-portfolio/
+<br><br>
 
-Application uses a color scheme other than the default Bootstrap color palette.
+### Built using
+- React, Node.js, Javascript and Bootstrap.
+<br><br>
 
-Repository Quality: 13%
-Repository has a unique name.
+## What I learned
+The React.js framework is an open-source JavaScript framework and library developed by Facebook. It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
 
-Repository follows best practices for file structure and naming conventions.
+In React, you develop your applications by creating reusable components that you can think of as independent Lego blocks. These components are individual pieces of a final interface, which, when assembled, form the application’s entire user interface.   
+<br>
 
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+### Useful resources
+https://reactjs.org/docs/getting-started.html
+<br><br>
 
-Repository contains multiple descriptive commit messages.
+## Contributors
+Lee Vine
+GitHub - https://github.com/leedvine
+<br><br>
 
-Repository contains quality README file with description, screenshot, and link to deployed application.
+## Questions
+Please feel free to reach out to me here leedvine@gmail.com
+<br><br>
 
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Installation
+Clone repo here https://github.com/leedvine/readme-generator 
+Local stystem requires React, node.js and Bootstrap to be installed.
+<br><br>
+
+## License
+MIT license
+
