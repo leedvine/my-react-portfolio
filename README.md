@@ -19,16 +19,8 @@ Contact with submittable form, links to social, CV and github.
 ![](./screenshots/screenshot-home.png)
 <br><br>
 
-### Project view
+### Project view utilizing json
 ![](./screenshots/screenshot-projects.png)
-<br><br>
-
-### Gallery view
-![](./screenshots/screenshot-gallery.png)
-<br><br>
-
-### Contact view
-![](./screenshots/screenshot-contact.png)
 <br><br>
 
 ## Links
@@ -60,7 +52,7 @@ Please feel free to reach out to me here leedvine@gmail.com
 <br><br>
 
 ## Installation
-Clone repo here https://github.com/leedvine/readme-generator 
+Clone repo here https://github.com/leedvine/my-react-portfolio
 Local stystem requires React, node.js and Bootstrap to be installed.
 <br><br>
 
